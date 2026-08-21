@@ -1,0 +1,78 @@
+import { Trigram, TrigramId } from '../types/divination';
+
+export const TRIGRAMS: Record<TrigramId, Trigram> = {
+  Qian: {
+    id: 'Qian',
+    chineseName: '乾',
+    naturalElement: '天',
+    englishName: 'Heaven / The Creative',
+    binary: [1, 1, 1],
+    symbol: '☰',
+    attribute: '健（刚健进取）',
+  },
+  Dui: {
+    id: 'Dui',
+    chineseName: '兑',
+    naturalElement: '泽',
+    englishName: 'Lake / The Joyous',
+    binary: [1, 1, 0],
+    symbol: '☱',
+    attribute: '说（欣悦沟通）',
+  },
+  Li: {
+    id: 'Li',
+    chineseName: '离',
+    naturalElement: '火',
+    englishName: 'Fire / The Clinging',
+    binary: [1, 0, 1],
+    symbol: '☲',
+    attribute: '丽（明照依附）',
+  },
+  Zhen: {
+    id: 'Zhen',
+    chineseName: '震',
+    naturalElement: '雷',
+    englishName: 'Thunder / The Arousing',
+    binary: [1, 0, 0],
+    symbol: '☳',
+    attribute: '动（震奋发韧）',
+  },
+  Xun: {
+    id: 'Xun',
+    chineseName: '巽',
+    naturalElement: '风',
+    englishName: 'Wind / The Gentle',
+    binary: [0, 1, 1],
+    symbol: '☴',
+    attribute: '入（顺逊渗透）',
+  },
+  Kan: {
+    id: 'Kan',
+    chineseName: '坎',
+    naturalElement: '水',
+    englishName: 'Water / The Abysmal',
+    binary: [0, 1, 0],
+    symbol: '☵',
+    attribute: '陷（沉潜涉险）',
+  },
+  Gen: {
+    id: 'Gen',
+    chineseName: '艮',
+    naturalElement: '山',
+    englishName: 'Mountain / Keeping Still',
+    binary: [0, 0, 1],
+    symbol: '☶',
+    attribute: '止（安止守静）',
+  },
+  Kun: {
+    id: 'Kun',
+    chineseName: '坤',
+    naturalElement: '地',
+    englishName: 'Earth / The Receptive',
+    binary: [0, 0, 0],
+    symbol: '☷',
+    attribute: '顺（包容承载）',
+  },
+};
+
+export const TRIGRAM_LIST = Object.values(TRIGRAMS);

@@ -1,0 +1,6 @@
+{
+  "name": "问一事 · Ask, Cast, Reflect",
+  "description": "问一事，起一卦。先听听自己，再听听 AI。结合传统六爻占卦、当代艺术设计与反思视角的数字文化体验。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
