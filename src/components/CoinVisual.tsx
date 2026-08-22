@@ -28,7 +28,7 @@ export function CoinVisual({
         animate={
           isFlipping
             ? {
-                rotateY: [0, 720 + (delayIndex * 180), 720],
+                rotateY: [0, 480 + (delayIndex * 180), 720],
                 rotateX: [0, 360, 0],
                 y: [0, -35 - (delayIndex * 10), 0],
                 scale: [1, 1.12, 1],
